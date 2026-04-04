@@ -128,3 +128,72 @@ section ul {
   color: #191970;
   text-decoration: underline;
 }
+section {
+  margin-bottom: 50px;
+}
+.project-card {
+  background-color: #f4f9ff;
+  border: 2px solid #2b6cb0;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 25px auto;
+  max-width: 850px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.project-card h3 {
+  color: #0b2c74;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.project-card p {
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.project-meta {
+  font-weight: bold;
+  color: #1f4e79;
+  text-align: center;
+  margin-top: 12px;
+}
+.highlight-card {
+  background-color: #f4f9ff;
+  border-left: 5px solid #2b6cb0;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin: 18px auto;
+  max-width: 850px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+.highlight-card p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+section h2 {
+  text-align: center;
+  color: #0b2c74;
+  margin-bottom: 30px;
+}
+
+section p {
+  max-width: 900px;
+  margin: 0 auto 18px auto;
+  line-height: 1.8;
+}
+@media screen and (max-width: 768px) {
+  .project-card,
+  .highlight-card {
+    width: 90%;
+    padding: 16px;
+  }
+
+  section p {
+    width: 90%;
+  }
+}
